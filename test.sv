@@ -19,7 +19,7 @@ class alu_test extends uvm_test;
  
     `uvm_info(get_type_name(), "We are inside of test, & in the run phase", UVM_MEDIUM);
 	phase.raise_objection(this);
-	$display("my name is Sharat Hiremath, here the sequence will run");
+	 $display("my name is Sri Krishna Sarvepalli, here the sequence will run");
 	lead = alu_seq::type_id::create("lead");
 	lead.start(tree.spy.line);
 #5;
